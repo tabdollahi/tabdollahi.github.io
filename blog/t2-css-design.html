@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic,700italic|Cinzel:900,700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<div id="left-column">
+  <h1>Positioning Techniques in CSS</h1>
+  <h2>Difference between Absolute, Relative, and Fixed</h2>
+  <h4>Sunday March 8, 2015</h4>
+</div>
+
+<div id="right-column>"
+  <section>
+    <p>
+      CSS offers various techniques for how to position blocks on a webpage. I will be discussing the differences between absolute, relative, and fixed positioning.
+    </p>
+    <p>
+        Absolute positioning places a page element exactly where you want it. Using the positioning attributes top, left, bottom, and right, you can set the exact location of the element. It will be relative to the next parent element or if the next parent element is the html tag, it will be relative to the page itself. While absolute positioning can be an easy way to place an element exactly where you want it, the downside is that these elements are not affected by other elements and it doesn't effect others. So you can easily get overlaps unintentionally.
+    </p>
+    <p>
+        Relative positioning allows you to set the positioning of an element relative to where it would normally land on a page. So if you just used position:relative with no other positioning attributes, this would be no different than the default position for a page element. However if you use other positioning attributes, such as left:50px, the element will be positioned 50px to the right of where it would normally be.
+    </p>
+
+    <p>
+        Fixed positioning essentially pins an element to a location on the browser window itself. So fixed elements remain in the same place even when the window is scrolled.And there you have it! the difference between absolute, relative, and fixed positioning.
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</div>
+</main>
